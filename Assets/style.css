@@ -1,20 +1,15 @@
 body {
     font-family: Cairo, Georgia, sans-serif;
     font-size: 22px;
-    background-image: url("Assets/full-bloom.png")
+    background-image: url("full-bloom.png");
 }
 
-.name {
+#name {
     font-family: Lobster, 'segeo script', cursive;
     font-size: 40px;
     color: #8f2e3e;
 }
 
-.pagetitle {
-    font-family: Cairo, Georgia, sans-serif;
-    font-size: 30px;
-}
-
-.navbar {
-    background-color: #7f84b9;
+.bg-light {
+    background-color: #7f84b9 !important;
 }
