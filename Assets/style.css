@@ -13,3 +13,23 @@ body {
 .bg-light {
     background-color: #7f84b9 !important;
 }
+
+.navbar {
+    justify-content: center;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center!important;
+    }
+}
