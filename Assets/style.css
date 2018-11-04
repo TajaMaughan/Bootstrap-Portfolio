@@ -7,13 +7,13 @@ body {
 #name {
     font-family: Lobster, 'segeo script', cursive;
     font-size: 40px;
-    color: #8f2e3e;
+    color: 	#515778;
 }
 
 .bg-light {
-    background-color: #7f84b9 !important;
+    background-color:	#d5eeec !important;
     border-bottom-style: ridge;
-    border-bottom-color: #b8a0c8;
+    border-bottom-color: #92b7bf;
     border-bottom-width: 5px;
 }
 
@@ -31,23 +31,34 @@ body {
 }
 
 .container {
-    background-color: #b8a0c8;
+    background-color: #92b7bf;
     padding: 25px;
-    border-color: #f2bdd0;
+    border-color: #8590a7;
     border-style: double;
     border-width: 5px;
+    margin-bottom: 50px;
 }
 
 .pagetitle {
-    color: #8f2e3e;
+    color: #515778;
 }
 
 img {
-    border-color: #c04c65;
+    border-color: #8590a7;
     border-style: ridge;
     border-width: 5px;
 }
 
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #8590a7;
+    border-top-style: solid;
+    border-top-color: #d5eeec;
+    border-top-width: 5px;
+}
 @media only screen and (max-width: 992px) {
 
     .navbar-expand-lg .navbar-collapse {
