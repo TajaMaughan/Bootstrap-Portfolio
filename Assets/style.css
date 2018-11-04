@@ -12,6 +12,9 @@ body {
 
 .bg-light {
     background-color: #7f84b9 !important;
+    border-bottom-style: ridge;
+    border-bottom-color: #b8a0c8;
+    border-bottom-width: 5px;
 }
 
 .navbar {
@@ -25,6 +28,24 @@ body {
 .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+}
+
+.container {
+    background-color: #b8a0c8;
+    padding: 25px;
+    border-color: #f2bdd0;
+    border-style: double;
+    border-width: 5px;
+}
+
+.pagetitle {
+    color: #8f2e3e;
+}
+
+img {
+    border-color: #c04c65;
+    border-style: ridge;
+    border-width: 5px;
 }
 
 @media only screen and (max-width: 992px) {
