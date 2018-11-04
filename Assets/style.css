@@ -40,6 +40,7 @@ body {
 }
 
 .pagetitle {
+    font-family: Lobster, 'segeo script', cursive;    
     color: #515778;
 }
 
@@ -59,6 +60,21 @@ img {
     border-top-color: #d5eeec;
     border-top-width: 5px;
 }
+
+.btn-link {
+    color: #515778;
+    background-color: #d5eeec;
+    position: relative;
+    bottom: 60px;
+    font-family: Lobster, 'segeo script', cursive;
+}
+
+.btn-primary {
+    background-color: #515778;
+    border-color: #515778;
+    color: #d5eeec;
+}
+
 @media only screen and (max-width: 992px) {
 
     .navbar-expand-lg .navbar-collapse {
