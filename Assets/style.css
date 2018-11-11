@@ -69,6 +69,22 @@ img {
     font-family: Lobster, 'segeo script', cursive;
 }
 
+.btn-link:hover {
+    color: #515778;
+    background-color: #d5eeec;
+    position: relative;
+    bottom: 60px;
+    font-family: Lobster, 'segeo script', cursive;
+}
+
+.btn-link:vistied {
+    color: #515778;
+    background-color: #d5eeec;
+    position: relative;
+    bottom: 60px;
+    font-family: Lobster, 'segeo script', cursive;
+}
+
 .btn-primary {
     background-color: #515778;
     border-color: #515778;
