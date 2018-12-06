@@ -91,6 +91,14 @@ img {
     color: #d5eeec;
 }
 
+.contactLink {
+    color: #515778;
+}
+
+.contactLink:hover {
+    color: #515778;
+}
+
 @media only screen and (max-width: 992px) {
 
     .navbar-expand-lg .navbar-collapse {
